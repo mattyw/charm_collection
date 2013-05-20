@@ -1,0 +1,4 @@
+name: helloserver
+summary: "A simple charm to start a python webserver"
+maintainer: "mw"
+description: "Start a simple webserver, allow us to change ports"

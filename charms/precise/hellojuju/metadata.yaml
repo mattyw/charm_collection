@@ -1,0 +1,4 @@
+name: hellojuju
+summary: "A simple charm to show hooks being called"
+maintainer: "mw"
+description: "Simple Simple Simple"

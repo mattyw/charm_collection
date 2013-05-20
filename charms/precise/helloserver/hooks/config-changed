@@ -1,0 +1,5 @@
+#!/bin/sh
+echo "Running config_changed"
+port=`config-get port`
+echo "Stopping Server"
+./hooks/restart-server $port

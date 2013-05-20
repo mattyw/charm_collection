@@ -1,0 +1,4 @@
+#!/bin/sh
+set -ev
+echo "Running start hook"
+./hooks/restart-server 8080

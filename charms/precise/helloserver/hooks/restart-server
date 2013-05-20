@@ -1,0 +1,9 @@
+#!/bin/sh
+set -ev
+echo "Stopping Server"
+start-stop-daemon --oknodo --pidfile /var/pythonserver.pid --stop
+
+echo "Starting Server with new port"
+start-stop-daemon --background --make-pidfile --quiet --pidfile /var/pythonserver.pid \
+    --start --startas /usr/bin/python -- -m SimpleHTTPServer $1
+open-port $1
