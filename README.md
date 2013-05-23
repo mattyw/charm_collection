@@ -11,6 +11,12 @@ helloserver
 ----------------
 Deploys a python webserver with a configurable port
 
+devenv
+------
+An example of my development machine setup, includes simple relationships
+to postgres, mongo and mysql, the configuration data for these gets written
+to /home/ubuntu when the relationships are added
+
 How to deploy
 --------------------
 Each charm has a corresponding deploy script which bootstraps the env and contains specific information for that deployment
