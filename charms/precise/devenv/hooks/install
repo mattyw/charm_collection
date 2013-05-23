@@ -1,5 +1,5 @@
 #!/bin/sh
-sudo apt-get -y install vim tmux git bzr mercurial
-wget -O ~/.tmux.conf https://raw.github.com/mattyw/dotfiles/master/tmux.conf
-wget -O ~/.vimrc https://raw.github.com/mattyw/dotfiles/master/vimrc
-cat "set editing-mode vi" > ~/.inputrc
+apt-get -y install vim tmux git bzr mercurial
+wget -O /home/ubuntu/.tmux.conf https://raw.github.com/mattyw/dotfiles/master/tmux.conf
+wget -O /home/ubuntu/.vimrc https://raw.github.com/mattyw/dotfiles/master/vimrc
+echo "set editing-mode vi" > /home/ubuntu/.inputrc

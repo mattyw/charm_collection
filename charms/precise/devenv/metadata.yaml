@@ -1,11 +1,12 @@
 name: devenv
 summary: "Setup mattyw's development environment"
-maintainer: Matt Williams <mattyw@me.com>
-description: |
-- Used by mattyw to setup a development environment on a cloud machine
+maintainer: "Matt Williams <mattyw@me.com>"
+description: "Used by mattyw to setup a development environment on a cloud machine"
 requires:
     mongo:
         interface: mongodb
     pq:
-        interface: pqsql
+        interface: pgsql
+    mysql:
+        interface: mysql
 
