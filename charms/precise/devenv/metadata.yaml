@@ -1,0 +1,10 @@
+name: devenv
+summary: "Setup mattyw's development environment"
+description: |
+- Used by mattyw to setup a development environment on a cloud machine
+requires:
+    mongo:
+        interface: mongodb
+    pq:
+        interface: pqsql
+
